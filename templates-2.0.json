@@ -8,7 +8,7 @@
 				"docker"
 			],
 			"platform": "linux",
-			"logo": "hhttps://pi-hole.github.io/graphics/Vortex/Vortex_with_text.png,
+			"logo": "hhttps://pi-hole.github.io/graphics/Vortex/Vortex_with_text.png",
 			"image": "pihole/pihole:latest",
 			"ports": [
 				"80/tcp",
