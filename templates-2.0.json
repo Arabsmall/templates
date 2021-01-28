@@ -2,6 +2,26 @@
 	"version": "2",
 	"templates": [{
 			"type": 1,
+			"title": "Pi-Hole",
+			"description": "The official Pi-hole Docker image from pi-hole.net",
+			"categories": [
+				"docker"
+			],
+			"platform": "linux",
+			"logo": "hhttps://pi-hole.github.io/graphics/Vortex/Vortex_with_text.png,
+			"image": "pihole/pihole:latest",
+			"ports": [
+				"80/tcp",
+				"53/tcp",
+				"443/tcp"
+			],
+			"volumes": [{
+				"container": "/etc/pihole/",
+				"container": "/etc/dnsmasq.d/"
+			}]
+		},
+		{
+			"type": 1,
 			"title": "Registry",
 			"description": "Docker image registry",
 			"categories": [
